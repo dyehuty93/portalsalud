@@ -1,0 +1,215 @@
+/* ======================= Reinicio global */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,  
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,  
+tfoot, thead, tr, th, td {  
+    border:0pt none;  
+    font-family:inherit;  
+    font-size:100%;  
+    font-style:inherit;  
+    font-weight:inherit;  
+    margin:0pt;  
+    padding:0pt;  
+    vertical-align:baselinebaseline;  
+}
+body {
+    font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+    margin:0px;
+	background-color: #E3E3E3;
+    background: url(imagenes/fondo.png) repeat scroll 0 0;
+    margin:0 auto;
+}
+table{  
+    border-collapse: separate;  
+    border-spacing: 0pt;  
+}  
+strong{  
+    font-weight: 700;  
+}  
+caption, th, td{  
+    font-weight:normal;  
+    text-align:left;  
+}  
+blockquote:before, blockquote:after, q:before, q:after{  
+    content:"";  
+}  
+blockquote, q{  
+    quotes:"" "";  
+}  
+pre{  
+    font-family: Arial, Helvetica, sans-serif;  
+}  
+input{  
+    border: 0;  
+    margin: 0;  
+    font-family: Arial, Helvetica, sans-serif;  
+}  
+textarea{  
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #888888;  
+    padding: 7px 3px 0 4px;  
+    font-size: 11px;  
+}  
+select{  
+    font-size: 11px;  
+    color: #888888;  
+    background: #fff;  
+    font-family: Arial, Helvetica, sans-serif;  
+    border: 1px solid #CAD2CE;  
+}  
+ul{  
+    list-style: none;  
+    list-style-type: none;  
+    list-style-position: outside;  
+}  
+a{  
+    cursor: pointer;  
+    color: #ece6bd;  
+    text-decoration: underline;  
+    outline: none !Important;  
+}  
+html,body{  
+    height:100%;  
+}  
+.clear{  
+    clear: both;  
+    height: 0;  
+    visibility: hidden;  
+    display: block;  
+    line-height: 0;  
+}  
+.clearfix{  
+    overflow: hidden;  
+}  
+.italic{  
+    font-style: italic;  
+}
+h1{  
+    color: #323232;  
+    font-size: 40px;  
+    text-shadow: 2px 1px 1px #aaa;
+}  
+h2{  
+font-size: 30px;
+    color: #323232;
+    text-shadow: 2px 1px 1px #aaa;
+}
+h3{  
+font-size: 20px;
+    margin-top: 10px;  
+    padding-bottom: 10px;  
+	margin-left: 10px; 
+    color: #323232;
+    text-shadow: 2px 1px 1px #aaa;
+}
+#contenido { 
+    float:right; 
+    width:1090px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #F4F4F4; 
+    border: 1px solid #CED5D7;
+    box-shadow: 0px 5px 10px #B5C1C5;
+    font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+border-radius: 10px;
+}
+#columna{
+    float: left;
+    width:160px; 
+   padding: 15px;
+        background-color: #F4F4F4; 
+    border: 1px solid #CED5D7;
+    box-shadow: 0px 5px 10px #B5C1C5;
+    font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+border-radius: 10px;
+margin:0 auto;
+}
+.total{ text-align:left; width:99%; margin:0 auto;}
+
+
+/* ======================= Enlaces */
+a:link {
+    text-decoration: none;
+}
+a:visit {
+    text-decoration: none;
+}
+a:hover {
+    color: #F6A33D;
+}
+
+
+
+/* ======================= Cabecera */
+#cabecera {
+width:100%;
+height:100px;
+background: url(imagenes/bg.png) repeat scroll 0 0;
+color:#F4F4F4;
+font: normal 40px Tahoma, Verdana, Arial, sans-serif;
+}
+#cabecera .texto{
+    padding:20px;
+}
+
+
+
+#pie{
+    width:100%;
+    clear:both; 
+    background: #000000;
+    margin-top: 30px;
+    margin-bottom:0px;
+	color: #636363;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center; 
+}
+#pie a{
+	color: #00BDD2;
+}
+#pie a:hover{
+text-decoration:underline;
+	color: #898989;
+}
+
+/* ================ Caja 2 */
+#box-2 .titulo{
+    font-size: 18px;
+}
+#box-2 .botones-compartir{padding-left:10px; margin:0px;}
+
+#box-2 table{
+    padding: 0px;
+    width: 100%;
+}
+
+#box-2 td{
+        background-color: #f4f5f8;
+border-radius: 5px;
+border:1px solid #C9C9C9;
+padding:10px;
+margin: 0 auto;
+}
+#box-2 .espacio{
+    background: none;
+    padding: 10px;
+    border: 0px;
+}
+/* ================ Caja 1 */
+#box-1 .titulo{
+    font-size: 18px;
+}
+#box-1 .botones-compartir{padding-left:10px; margin:0px;}
+
+#box-1 table{
+    padding: 0px;
+    width: 100%;
+}
+
+#box-1 td{
+        background-color: #4E4E4E;
+border-radius: 5px;
+padding:10px;
+margin: 0 auto;
+}
+
